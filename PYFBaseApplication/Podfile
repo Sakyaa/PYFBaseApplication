@@ -4,7 +4,7 @@ platform :ios, '10.0'
 
 target 'PYFBaseApplication' do
   use_frameworks!
-  pod 'PolyvVodSDK', '~> 2.16.6'
+  pod 'PolyvVodSDK', '2.16.6'
 end
 
 #pre_install do |installer|

@@ -31,7 +31,7 @@ PODS:
   - WCDBOptimizedSQLCipher (1.2.1)
 
 DEPENDENCIES:
-  - PolyvVodSDK (~> 2.16.6)
+  - PolyvVodSDK (= 2.16.6)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -56,6 +56,6 @@ SPEC CHECKSUMS:
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
-PODFILE CHECKSUM: fc8acf8f1093dae31c61f01a5cc181b8c24e95d2
+PODFILE CHECKSUM: f42cd36d9f09a694b1ab2d5b1cecdf5105ca555d
 
 COCOAPODS: 1.11.3
