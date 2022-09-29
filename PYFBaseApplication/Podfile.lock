@@ -9,16 +9,16 @@ PODS:
   - PLVIJKPlayer (0.11.3)
   - PLVMarquee (0.0.4)
   - PLVTimer (0.0.4)
-  - PolyvVodSDK (2.16.6):
-    - PolyvVodSDK/Core (= 2.16.6)
-    - PolyvVodSDK/Player (= 2.16.6)
-    - PolyvVodSDK/ThirdPart (= 2.16.6)
-  - PolyvVodSDK/Core (2.16.6):
+  - PolyvVodSDK (2.17.0):
+    - PolyvVodSDK/Core (= 2.17.0)
+    - PolyvVodSDK/Player (= 2.17.0)
+    - PolyvVodSDK/ThirdPart (= 2.17.0)
+  - PolyvVodSDK/Core (2.17.0):
     - PLVMarquee (~> 0.0.4)
     - PLVTimer (~> 0.0.2)
-  - PolyvVodSDK/Player (2.16.6):
-    - PLVIJKPlayer (~> 0.11.1)
-  - PolyvVodSDK/ThirdPart (2.16.6):
+  - PolyvVodSDK/Player (2.17.0):
+    - PLVIJKPlayer (~> 0.11.3)
+  - PolyvVodSDK/ThirdPart (2.17.0):
     - PLVAliHttpDNS (~> 1.10.0)
     - SSZipArchive (~> 2.1.5)
     - WCDB (~> 1.0.6)
@@ -31,7 +31,7 @@ PODS:
   - WCDBOptimizedSQLCipher (1.2.1)
 
 DEPENDENCIES:
-  - PolyvVodSDK (= 2.16.6)
+  - PolyvVodSDK (= 2.17.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -50,12 +50,12 @@ SPEC CHECKSUMS:
   PLVIJKPlayer: 60bb2824eaa6117c4d7a34fceac24164085efbd9
   PLVMarquee: 7b22d5a12868817642e0a71cf4aa5ccc285b8a22
   PLVTimer: 80d2d24d32bb2e9588d089fc25974ff778259ae1
-  PolyvVodSDK: adeac875f8c8d8a56674f503102edff84b269b04
+  PolyvVodSDK: f61f5174cb5227620e29434c8572e0ca35a0dc6b
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   SSZipArchive: cefe1364104a0231268a5deb8495bdf2861f52f0
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
-PODFILE CHECKSUM: f42cd36d9f09a694b1ab2d5b1cecdf5105ca555d
+PODFILE CHECKSUM: 78ca1eb86847a08519087fff37d22161768fbebd
 
 COCOAPODS: 1.11.3
