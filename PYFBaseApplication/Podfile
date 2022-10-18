@@ -4,6 +4,9 @@ platform :ios, '10.0'
 
 target 'PYFBaseApplication' do
   use_frameworks!
-  pod 'PolyvVodSDK', '2.17.0'
+
+  pod 'PLVLiveScenesSDK', '1.9.3'
+  
+
 end
 
