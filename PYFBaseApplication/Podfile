@@ -5,8 +5,7 @@ platform :ios, '10.0'
 target 'PYFBaseApplication' do
   use_frameworks!
 
-  pod 'PLVLiveScenesSDK', '1.9.3'
-  
+  pod 'PLVWebViewSDK', '2.1.0'
 
 end
 
