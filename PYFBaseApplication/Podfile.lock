@@ -1,109 +1,16 @@
 PODS:
-  - AgoraRtcEngine_iOS (3.6.0.1)
-  - AliyunOSSiOS (2.10.15)
-  - PLVAliHttpDNS (1.10.0):
-    - PLVAliHttpDNS/AlicloudHttpDNS (= 1.10.0)
-    - PLVAliHttpDNS/AlicloudUtils (= 1.10.0)
-    - PLVAliHttpDNS/UTDID (= 1.10.0)
-  - PLVAliHttpDNS/AlicloudHttpDNS (1.10.0)
-  - PLVAliHttpDNS/AlicloudUtils (1.10.0)
-  - PLVAliHttpDNS/UTDID (1.10.0)
-  - PLVBusinessSDK/AbstractRTC (1.9.5):
-    - PLVBusinessSDK/ARTC
-    - PLVBusinessSDK/BaseRTC
-    - PLVBusinessSDK/TRTC
-    - PLVBusinessSDK/URTC
-  - PLVBusinessSDK/ARTC (1.9.5):
-    - PLVBusinessSDK/Headers
-  - PLVBusinessSDK/BaseRTC (1.9.5):
-    - PLVBusinessSDK/Headers
-  - PLVBusinessSDK/BusinessSocket (1.9.5):
-    - PLVBusinessSDK/Headers
-  - PLVBusinessSDK/Headers (1.9.5)
-  - PLVBusinessSDK/TRTC (1.9.5):
-    - PLVBusinessSDK/Headers
-  - PLVBusinessSDK/URTC (1.9.5):
-    - PLVBusinessSDK/Headers
-  - PLVFoundationSDK (1.9.5):
-    - PLVFoundationSDK/Core (= 1.9.5)
-  - PLVFoundationSDK/Core (1.9.5)
-  - PLVIJKPlayer (0.11.0)
-  - PLVLiveScenesSDK (1.9.3):
-    - PLVLiveScenesSDK/BaseSDK (= 1.9.3)
-    - PLVLiveScenesSDK/Core (= 1.9.3)
-    - PLVLiveScenesSDK/OtherPart (= 1.9.3)
-    - PLVLiveScenesSDK/Player (= 1.9.3)
-  - PLVLiveScenesSDK/BaseSDK (1.9.3):
-    - PLVBusinessSDK/AbstractRTC (~> 1.9.3)
-    - PLVBusinessSDK/BusinessSocket (~> 1.9.3)
-    - PLVFoundationSDK (~> 1.9.3)
-  - PLVLiveScenesSDK/Core (1.9.3)
-  - PLVLiveScenesSDK/OtherPart (1.9.3):
-    - AgoraRtcEngine_iOS (= 3.6.0.1)
-    - AliyunOSSiOS (~> 2.10.8)
-    - PLVAliHttpDNS (~> 1.10.0)
-    - PLVModel (~> 1.0.4)
-    - PLVSocketIOClientSwift (~> 0.1.0)
-    - SSZipArchive (= 2.1.5)
-    - TXLiteAVSDK_TRTC (= 9.3.10763)
-    - UCloudRtcSdk (= 1.9.2.9)
-    - WCDB (~> 1.0.6)
-  - PLVLiveScenesSDK/Player (1.9.3):
-    - PLVIJKPlayer (= 0.11.0)
-  - PLVModel (1.0.4)
-  - PLVSocketIOClientSwift (0.1.0):
-    - PLVStarscream (~> 0.1.0)
-  - PLVStarscream (0.1.0)
-  - SQLiteRepairKit (1.2.2):
-    - WCDBOptimizedSQLCipher (~> 1.2.0)
-  - SSZipArchive (2.1.5)
-  - TXLiteAVSDK_TRTC (9.3.10763)
-  - UCloudRtcSdk (1.9.2.9)
-  - WCDB (1.0.7.5):
-    - SQLiteRepairKit (~> 1.2.0)
-    - WCDBOptimizedSQLCipher (~> 1.2.0)
-  - WCDBOptimizedSQLCipher (1.2.1)
+  - PLVWebViewSDK (2.1.1)
 
 DEPENDENCIES:
-  - PLVLiveScenesSDK (= 1.9.3)
+  - PLVWebViewSDK (= 2.1.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - AgoraRtcEngine_iOS
-    - AliyunOSSiOS
-    - PLVAliHttpDNS
-    - PLVBusinessSDK
-    - PLVFoundationSDK
-    - PLVIJKPlayer
-    - PLVLiveScenesSDK
-    - PLVModel
-    - PLVSocketIOClientSwift
-    - PLVStarscream
-    - SQLiteRepairKit
-    - SSZipArchive
-    - TXLiteAVSDK_TRTC
-    - UCloudRtcSdk
-    - WCDB
-    - WCDBOptimizedSQLCipher
+    - PLVWebViewSDK
 
 SPEC CHECKSUMS:
-  AgoraRtcEngine_iOS: bcefa5cab2343080df7ccaf0b9d0e2158413300a
-  AliyunOSSiOS: 5d7c50ce7b39b2b0b10f603a5971cccb0f25eee2
-  PLVAliHttpDNS: e968fff888b8e96e51828d76d571a9430367475f
-  PLVBusinessSDK: 3631c8980893bcfa1c8ea40b2c8ffa933c546d97
-  PLVFoundationSDK: 95da44082b607f5f27f919fa545410236cd49ddf
-  PLVIJKPlayer: 5fce5ef4b31ac67ede10ef57509357c71a5a6670
-  PLVLiveScenesSDK: e62c874bee45a374dd52a3dfae191062217af61c
-  PLVModel: 88d604de34d00d89aca11660dd2edd4e51b6138e
-  PLVSocketIOClientSwift: 118977ef19f8a8252bbd9729469eb7f322963597
-  PLVStarscream: 9d3a6c67c9b4e0a37fc13d4e93ccc8a664582765
-  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
-  SSZipArchive: cefe1364104a0231268a5deb8495bdf2861f52f0
-  TXLiteAVSDK_TRTC: 447a6a0a71598a16fd9a52326502413a4dd17eaa
-  UCloudRtcSdk: af9139bcc6ff8196e4f50b64157bcbd1a3c71518
-  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
-  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  PLVWebViewSDK: 7b7185daaeafcc3a27e39ef05e92fed12d35b387
 
-PODFILE CHECKSUM: bccd41f995209f8da9c0fdced76ab043705c294f
+PODFILE CHECKSUM: ede4978f20e1bfd61b0a15c2d5589a9d520d115d
 
 COCOAPODS: 1.11.3
